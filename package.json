@@ -1,0 +1,26 @@
+{
+  "name": "RapsodoAssigment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozansacmazz/RapsodoAssigment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozansacmazz/RapsodoAssigment/issues"
+  },
+  "homepage": "https://github.com/ozansacmazz/RapsodoAssigment#readme",
+  "dependencies": {
+    "cypress": "^9.5.3"
+  }
+}

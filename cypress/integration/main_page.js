@@ -35,10 +35,13 @@ it('Rapsodo Assignment', ()=> {
     //Cart Page Operations
 
     cartPage.gotoCart()
+    cartPage.verifyUrlCart()
+    cartPage.verifyCartAmount()
     cartPage.verifyPrice()
     cartPage.typeCouponCode()
     cartPage.clickOnApplyCoupon()
     cartPage.verifyWarningMessage()
+    
 
 
 })

@@ -27,7 +27,7 @@
 
 # Project Details
 
-  - Once the repo is downloaded, type npx cypress open to the terminal and wait for cypress modal.
+  - Once the repo is downloaded, goto RapsodoAssignment directory and type "npx cypress open" to the terminal and wait for cypress modal.
   
 ![cypressmodal](https://user-images.githubusercontent.com/103331407/162612860-a3cb878c-fbe6-4c5e-8ec9-97fc4082011a.png)
 

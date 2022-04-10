@@ -13,25 +13,26 @@ beforeEach(function(){
 })
 
 
-
 it('Rapsodo Assignment', ()=> {
     
+    //Home Page Operations
 
     homePage.verifyUrl('http://demowebshop.tricentis.com/')
     homePage.clickOnComputers()
     homePage.clickOnDesktop()
     homePage.verifyTitleAndCart()
  
+    // Products Page Operations
 
     productPage.clickOnProduct()
 
-    
+    // Product Detail Page Operations
+
     productDetailPage.verifyUrlContent()
     productDetailPage.selectAmountProduct()
     productDetailPage.addItemsToCart()
 
-    /*cart.js */
-    // Click on shopping cart
+    //Cart Page Operations
 
     cartPage.gotoCart()
     cartPage.verifyPrice()

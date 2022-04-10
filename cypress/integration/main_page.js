@@ -40,22 +40,5 @@ it('Rapsodo Assignment', ()=> {
     cartPage.clickOnApplyCoupon()
     cartPage.verifyWarningMessage()
 
-    //cy.get('.ico-cart > .cart-label').click()
-
-    // Verifying the cost data
-    //cy.get('.product-price > strong').should('contain.text',1630.00)
-
-    // Appliying the coupon on  discount code
-    //cy.get('.discount-coupon-code').type('CHEAPCOMPUTERBEST')
-    // Click apply
-    //cy.get('.coupon-box > .coupon-code > .button-2').click()
-
-    // Verify the does not exist
-   // cy.get('.message').should('contain.text',"The coupon code you entered couldn't be applied to your order")
-    
-
-    
-
-   
 
 })
